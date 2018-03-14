@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    
+<!--Head-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Styles Conference</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css"><!--Stylesheet-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet"><!--Google Fonts-->
+</head>
+    
+<!--Main content of page-->
+
+<body>
+    
+    <!--Header-->
+    
+	<header class="primary-header container group">
+        <!--primary-header class will make the header Styles Conference white. Since its a link to index.html, on hover the colour will change
+
+        container class will position content full screen (960px) and centralise with a top to bottom 0 margin and left to right auto. Padding is also added left and right of 30px
+        
+        group class is to do with the floating of elements. This will group the content and represents a group of elements.
+
+         --><h1 class="logo">
+                <a href="index.html">Styles <br> Conference</a>
+            </h1>
+            <!--logo class will style the heading Styles Conference-->
+			<h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
+            <!--tagline class will align the text and add a top and bottom margin-->
+            <nav class="nav primary-nav">
+              <ul>
+                <li><a href="index.html">Home</a></li><!--
+                --><li><a href="speakers.html">Speakers</a></li><!--
+                --><li><a href="schedule.html">Schedule</a></li><!--
+                --><li><a href="venue.html">Venue</a></li><!--
+                --><li><a href="register.html">Register</a></li>
+              </ul>
+            </nav>
+            <!--nav class will align the nav content, display it as inline-block and align to the top of its box. The last link will have a right margin of 0
+
+            Primary nav will affect style the navigation fonts and letter spacing
+
+            Comments added due to inline elements white spacing
+            -->
+
+	</header>
+
+	<section class="hero container">
+
+		<h2>Dedicated to the Craft of Building Websites</h2>
+
+			<p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
+
+			<a class="btn btn-alt" href="register.html">Register Now</a>
+
+    </section>
+    
+    <!-- The hero class will affect the section alone and is the below the header. The color and styling of the text within the hero section is affected.
+
+    Container class will ensure the content is in line with the header content
+
+    The btn class will give rounded corners to the register button, give a default color when not in use, change the cursor when its interacted with, and style the register text within it. 
+
+    The btn-alt class will affect the border and padding between the content and border. When the cursor hovers over the button the colour will change to white
+
+    -->
+
+        <section class="row"><!--Width, background white and padding of entire section-->
+            <div class="grid"><!--0 margin and central with auto value-->
+
+            <!--Speakers-->
+
+            <section class="teaser col-1-3">
+                <h5>Speakers</h5>
+                <a href="speakers.html">
+                <img class="teaser" src="assets/images/Home/speakers.jpg" alt="Professional Speaker">
+                <h3>World Class Speakers</h3>
+                </a>
+                <p>Joining us from all around the world are over twenty fantastic speakers here to share stories.</p>
+            </section><!--
+
+            Schedule
+
+            --><section class="teaser col-1-3">
+                <h5>Schedule</h5>
+                <a href="schedule.html">
+                <img class="teaser" src="assets/images/Home/schedule.jpg" alt="Professional Speaker">
+                <h3>Three Inspiring Days</h3>
+                </a>
+                <p>Enjoy three inspiring and action-packed days of talks, gatherings, and all round good times.</p>
+            </section><!--
+
+            Venue
+
+            --><section class="teaser col-1-3">
+                <h5>Venue</h5>
+                <a href="venue.html">
+                <img class="teaser" src="assets/images/Home/venue.jpg" alt="Professional Speaker">
+                <h3>The Chicago Theatre</h3>
+                </a>
+                <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
+            </section>
+          </div>
+        </section>
+
+    <footer class="primary-footer container group">
+    <!--Same structure of classes as header-->
+        <small>&copy; Styles Conference</small>
+
+		<nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li><!--
+        --><li><a href="speakers.html">Speakers</a></li><!--
+        --><li><a href="schedule.html">Schedule</a></li><!--
+        --><li><a href="venue.html">Venue</a></li><!--
+        --><li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+
+	</footer>
+
+</body>
+
+</html>
+
+<!--Styles Conference HTML and CSS course https://learn.shayhowe.com/ completed by JavaCakesCP-->
